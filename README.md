@@ -14,14 +14,14 @@ AI-generated frontends suffer from a recognizable cluster of visual and structur
 
 | Dimension | ❌ AI Slop (Before) | ✅ Craft-Grade UI (After) |
 | :--- | :--- | :--- |
-| **Vertical Rhythm** | Arbitrary gaps (`22px`, `30px`, `42px`, `25px`), bloated `p-8` padding everywhere | Strict **`4px`/`8px` spatial grid** (`4, 8, 12, 16, 24, 32px`), compact `32px–36px` nav/input rows |
-| **Horizontal Keylines** | Ragged left edges (logo at `26px`, search at `18px`, nav icons floating) | Single **unified vertical keyline rail** shared by logo, inputs, section labels, and nav icons |
-| **Surface Palette** | Blue/purple-tinted dark mode (`#121326`), neon radial blobs, heavy `backdrop-blur` | **True carbon/obsidian neutrals** (`#09090B`, `#111113`, `#18181B`) or crisp alabaster (`#FAFAFA`, `#FFFFFF`) |
+| **Vertical Rhythm** | Arbitrary gaps (`22px`, `34px`, `46px`), bloated `p-8` padding everywhere | Strict **`4px`/`8px` spatial grid** (`4, 8, 12, 16, 24, 32px`), compact `28px–36px` nav/input rows |
+| **Horizontal Keylines** | Ragged left edges (logo at `44px`, search at `22px`, section headers at `34px`) | Single **unified vertical keyline rail** shared by logo, inputs, section labels, and nav icons |
+| **Surface Palette** | Blue/purple-tinted dark mode (`#13102C`), neon radial blobs, heavy `backdrop-blur` | **True carbon/obsidian neutrals** (`#09090B`, `#111113`, `#18181B`) or crisp alabaster (`#FAFAFA`, `#FFFFFF`) |
 | **Borders & Depth** | Glowing colored borders (`border-purple-500/40`), heavy colored drop shadows | Crisp **`1px solid` hairline borders** (`rgba(255,255,255,0.07)` dark / `#E4E4E7` light) |
-| **Typography & Case** | `UPPERCASE` tracking-wide labels (`PAID THIS MONTH`), jittery proportional numbers | Quiet **`Sentence case`** (`Paid this month`), `tabular-nums` on every numeric value |
-| **Copy & Branding** | `EmberAI [PRO]`, `Welcome back, Damir! 👋`, `🔥 +12%!!`, `✅ +4.2% this month!!` | Clean brand (`Ember`), contextual header (`October 2026`), sober delta (`+12% vs last month`) |
-| **Badges & Icons** | Emojis as UI icons (`👑`, `🏠`, `⚡`), saturated pill badges on every sidebar counter | Uniform `14px–16px` `1.5px`-stroke monochrome icons, `6px` semantic status dots, plain tabular counters |
-| **Data Visualization** | Thick rounded purple capsule bars with no Y-axis, no gridlines, fake heights | Explicit Y-axis scale (`0–140k`), `1px` hairline gridlines, zero-baseline, `1.5px` multi-series curves |
+| **KPI Cards & Icons** | Icons trapped inside 20%-opacity colored circles, `ALL CAPS` headers, `rounded-full` pill deltas | Pure typographic hierarchy, `Sentence case` labels, inline units (`req/s`, `ms`), `tabular-nums` |
+| **Copy & Chrome** | `VektorAI [BETA]`, `NEW: AI Auto-Scaler 3.0 is live!!`, `DEPLOY AI!!`, `UNLOCK AI TURBO!!` | Clean brand (`Vektor`), contextual header (`Cluster telemetry 24h window`), restrained `Deploy build` CTA |
+| **Data Visualization** | Thick rounded purple capsule bars (`H1–H12`) with no Y-axis, no gridlines, fake heights | Explicit Y-axis scale (`0ms–100ms`), `1px` hairline gridlines, dashed SLA threshold, `1.5px` p50/p99 curves |
+| **Data Tables** | Heavy zebra striping, giant glowing status pills (`STATUS: LIVE!`), unaligned numbers, `john-doe-test` | `1px` row dividers, `6px` semantic status dots (`Healthy`, `Degraded`), right-aligned tabular `p99` & `Age` |
 
 ---
 
