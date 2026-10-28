@@ -2,6 +2,8 @@
 
 **A comprehensive design-engineering `SKILL.md` for AI coding agents to diagnose and eliminate "AI slop" in user interfaces.**
 
+![Before and After Unslopping an AI UI](./assets/before-after.png)
+
 AI-generated frontends suffer from a recognizable cluster of visual and structural habits: neon purple/indigo gradients, arbitrary off-grid spacing (`22px`, `30px`, `42px`), misaligned vertical keylines, emoji clutter (`🔥 +12%!!`), `ALL CAPS` label overuse, saturated pill-badge overload, and low-signal "toy" charts without axes.
 
 `unslop-ui` gives your coding agent (Antigravity, Claude Code, Cursor, Windsurf, Codex, etc.) a deterministic **4-Stage Execution Loop** and **12 Design-Engineering Protocols**—complete with **Vanilla CSS variables** and **Tailwind CSS** before/after patterns—to transform generic AI output into calm, craft-grade interfaces.
@@ -86,3 +88,4 @@ The agent will automatically run the **4-Stage Execution Loop**:
 ## License
 
 MIT
+
